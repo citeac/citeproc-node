@@ -2,10 +2,10 @@
   "author": "fcheslack",
   "name": "citeproc",
   "description": "Node.js server utilizing citeproc-js to format citations",
-  "version": "v0.0.2",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/zotero/citeproc-node.git"
+    "url": "git://github.com/citeac/citeproc-node.git"
   },
   "directories": {
     "lib": "./lib"
@@ -14,11 +14,11 @@
     "node": ">=0.10.25"
   },
   "dependencies": {
-    "jsdom": "0.2.0 - 0.5.7",
-    "optimist": ">=0.3.1",
-    "underscore": ">=1.3.3",
-    "npmlog": ">=0.0.6",
-    "bluebird": ">=1.0.5"
+    "jsdom": "0.5.7",
+    "optimist": "0.6.1",
+    "underscore": "1.6.0",
+    "npmlog": "0.0.6",
+    "bluebird": "1.0.5"
   },
   "devDependencies": {}
 }
